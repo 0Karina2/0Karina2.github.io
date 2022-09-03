@@ -1,0 +1,53 @@
+header{
+    background-color: violet;
+}
+
+.caja{
+    background-color: violet;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.tarjeta{
+    width: 600px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid;
+    justify-content: space-between;
+    background-color: #d36ce7;
+}
+
+button{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: blueviolet;
+    border: none;
+    margin: 20px 0;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor:pointer;
+    display: inline-block;
+    outline:1px solid violet;
+}
+
+
+footer{
+    text-align: center;
+    background: blueviolet;
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20;
+}
